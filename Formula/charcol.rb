@@ -1,15 +1,15 @@
 class Charcol < Formula
   desc "Terminal game engine with AI-powered game builder"
   homepage "https://github.com/tlg-studio/homebrew-charcol"
-  version "0.1.0"
+  version "0.1.1"
   license :cannot_represent
 
   if Hardware::CPU.arm?
     url "https://github.com/tlg-studio/homebrew-charcol/releases/download/v#{version}/charcol-macos-arm64.tar.gz"
-    sha256 "b1497ebfd37b8dbddd3b7e568c159b3c7c8514095afa86a652252dd17f79b567"
+    sha256 "0b21bb91d76c86516d569e3e018b1d47caaac98a2e4f89292892f725ba24d856"
   else
     url "https://github.com/tlg-studio/homebrew-charcol/releases/download/v#{version}/charcol-macos-x86_64.tar.gz"
-    sha256 "f42152c0c4d39ce6d5d54c3a1a8174de52f5a0e72b165afe4133a3658af0db61"
+    sha256 "6dd8359f14f5fb6c10c093f0129c2951e6f70e5d078fa9c5ce84e68d73ccacc6"
   end
 
   def install
