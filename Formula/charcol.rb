@@ -6,10 +6,10 @@ class Charcol < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/tlg-studio/homebrew-charcol/releases/download/v#{version}/charcol-macos-arm64.tar.gz"
-    sha256 "0124f0490935d78f5eb04bc242dca7afbe5c4bee0bd19da810e5fb345cd2a914"
+    sha256 "84ee7024d6f0e07d315a60047168e5ef2287d01520186f64a02e2a0c186e42f2"
   else
     url "https://github.com/tlg-studio/homebrew-charcol/releases/download/v#{version}/charcol-macos-x86_64.tar.gz"
-    sha256 "dcb96fe7ba5f475c1f462df673797a8d83d85044dfe42c33f79d594538a3a345"
+    sha256 "be879b5114caba9b34bf57cb9f80174e66c47d36d0b39b247f0433e52b075efa"
   end
 
   def install
